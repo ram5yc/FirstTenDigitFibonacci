@@ -16,8 +16,8 @@ namespace TenDigitFibonnaci
         static void Main(string[] args)
         {
 
-            int fib1 = 1; //variable for first number
-            int fib2 = 2; //variable for second number
+            int fib1 = 0; //variable for first number
+            int fib2 = 1; //variable for second number
             int fib3 = 0; //stores addition
 
             //int fib4 = 0; NO LONGER NEEDED
@@ -27,7 +27,7 @@ namespace TenDigitFibonnaci
                 fib3 = fib1 + fib2;
                 fib1 = fib2;
                 fib2 = fib3;
-                //fib4 += fib3; //NO LONGER NEEDED
+              
 
 
                 //if (fib2 % 2 == 0) //find numbers divisible by 2 (even)
